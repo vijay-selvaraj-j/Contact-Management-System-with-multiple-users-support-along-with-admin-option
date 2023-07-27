@@ -1,0 +1,36 @@
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select {
+    width: 120%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box important;
+}
+
+
+input[type="submit"] {
+    width: 115%;
+    background-color: #f76c6c;
+    color: white;
+    padding: 14px 20px;
+    align-items: center;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+input[type="submit"]:hover {
+background-color: hsl(0, 89%, 15%);
+}
+
+th, td {
+    padding-left: 20px;
+    padding-right: 5px;
+  }
